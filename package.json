@@ -1,6 +1,6 @@
 {
   "name": "node-r-runner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node.js module for running R scripts",
   "main": "./dist/bundle.js",
   "repository": "https://github.com/saiemgilani/node-r",

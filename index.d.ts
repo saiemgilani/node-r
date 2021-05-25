@@ -1,4 +1,4 @@
-declare module 'node-r' {
+declare module 'node-r-runner' {
   interface Options {
     [key: string]: any
   }

@@ -1,4 +1,4 @@
-# node-r
+# node-r-runner
 
 ### Experimental
 
@@ -8,7 +8,7 @@ Node.js module for running R scripts
 
 R needs to already be installed, and [jsonlite](https://cran.r-project.org/web/packages/jsonlite/index.html) R library needs to be installed.
 
-`yarn add node-r` or `npm install node-r`
+`yarn add node-r-runner` or `npm install node-r-runner`
 
 ## Usage
 
@@ -21,7 +21,7 @@ input[[1]] + input[[2]]
 In node:
 
 ```javascript
-const { R } = require('node-r')
+const { R } = require('node-r-runner')
 
 let r = new R('./add.R')
 
