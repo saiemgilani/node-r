@@ -1,0 +1,29 @@
+{
+  "name": "node-r",
+  "version": "0.1.0",
+  "description": "Node.js module for running R scripts",
+  "main": "./dist/bundle.js",
+  "repository": "https://github.com/saiemgilani/node-r",
+  "author": "Saiem Gilani <saiemgilani@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "mocha"
+  },
+  "files": [
+    "dist",
+    "src",
+    "index.d.ts"
+  ],
+  "devDependencies": {
+    "@types/node": "^12.6.6",
+    "chai": "^4.2.0",
+    "copy-webpack-plugin": "^5.0.3",
+    "mocha": "^6.1.4",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "types": "index.d.ts"
+}
