@@ -1,4 +1,4 @@
-# node-R
+# node-r
 
 ### Experimental
 
@@ -12,7 +12,7 @@ R needs to already be installed, and [jsonlite](https://cran.r-project.org/web/p
 
 ## Usage
 
-In an R file: 
+In an R file:
 
 ```R
 input[[1]] + input[[2]]
